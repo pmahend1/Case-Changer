@@ -2,7 +2,7 @@
   "name": "case-converter",
   "displayName": "Case Converter",
   "description": "Convert text case to UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "PrateekMahendrakar",
   "repository": {
     "url": "https://github.com/pmahend1/Case-Changer"
@@ -12,7 +12,7 @@
   "bugs": "https://github.com/pmahend1/Case-Changer/issues",
   "preview": false,
   "galleryBanner": {
-    "color": "#fefefe",
+    "color": "#0E0E0E",
     "theme": "dark"
   },
   "markdown": "standard",
