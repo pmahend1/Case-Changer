@@ -1,5 +1,5 @@
 {
-  "name": "case.changer",
+  "name": "case-changer",
   "displayName": "Case Changer",
   "description": "Change text case: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
   "version": "1.0.0",
