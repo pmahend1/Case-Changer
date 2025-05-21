@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="linearGradient34" x1="3.62e-5" x2="512" y1="256" y2="256" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#cac2fa" offset="0"/>
+            <stop stop-color="#505ee4" offset=".541"/>
+        </linearGradient>
+    </defs>
+    <text transform="translate(-527 4.18)" font-family="sans-serif" font-size="40px" style="line-height:1.25;shape-inside:url(#rect1);white-space:pre" xml:space="preserve"><tspan x="123.67383" y="268.12548">c</tspan></text>
+    <text transform="translate(-527 4.18)" font-family="sans-serif" font-size="40px" style="line-height:1.25;shape-inside:url(#rect2);white-space:pre" xml:space="preserve"/>
+    <rect x="9.99" y="9.99" width="492" height="492" rx="24" ry="24" fill="url(#linearGradient34)" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="20" style="paint-order:normal"/>
+    <text x="45.393723" y="310.20514" font-family="'Fira Code'" font-size="200px" font-weight="500" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="45.393723" y="310.20514">c</tspan></text>
+    <text x="286.88428" y="359.86984" fill="#000000" font-family="'Fira Code'" font-size="293px" font-weight="500" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="286.88428" y="359.86984">C</tspan></text>
+    <path d="m167 279 39.6 45.9m2.06-158v158" fill="none" stroke="#000" stroke-linecap="round" stroke-width="17.1"/>
+    <path d="m285 213-39.6-45.9m-2.06 158v-158" fill="none" stroke="#000" stroke-linecap="round" stroke-width="17.1"/>
+</svg>

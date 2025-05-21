@@ -1,0 +1,77 @@
+{
+  "name": "case.changer",
+  "displayName": "Case Changer",
+  "description": "Change Text Case: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "case.changer.UPPERCASE",
+        "title": "Case Changer: UPPERCASE"
+      },
+      {
+        "command": "case.changer.lowercase",
+        "title": "Case Changer: lowercase"
+      },
+      {
+        "command": "case.changer.PascalCase",
+        "title": "Case Changer: PascalCase"
+      },
+      {
+        "command": "case.changer.camelCase",
+        "title": "Case Changer: camelCase"
+      },
+      {
+        "command": "case.changer.snake_case",
+        "title": "Case Changer: snake_case"
+      },
+      {
+        "command": "case.changer.kebab-case",
+        "title": "Case Changer: kebab-case"
+      },
+      {
+        "command": "case.changer.Start Case",
+        "title": "Case Changer: Start Case"
+      },
+      {
+        "command": "case.changer.Sentence case.",
+        "title": "Case Changer: Sentence case."
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run package",
+    "compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "~22.15.21",
+    "@types/vscode": "^1.100.0",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2",
+    "esbuild": "^0.25.4",
+    "eslint": "^9.27.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.8.3"
+  }
+}
