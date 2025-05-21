@@ -1,8 +1,44 @@
 {
   "name": "case.changer",
   "displayName": "Case Changer",
-  "description": "Change Text Case: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
+  "description": "Change text case: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
   "version": "1.0.0",
+  "publisher": "PrateekMahendrakar",
+  "repository": {
+    "url": "https://github.com/pmahend1/Case-Changer"
+  },
+  "icon": "lib/icon.png",
+  "license": "MIT",
+  "bugs": "https://github.com/pmahend1/Case-Changer/issues",
+  "preview": false,
+  "galleryBanner": {
+    "color": "#fefefe",
+    "theme": "dark"
+  },
+  "markdown": "standard",
+  "keywords": [
+    "pascal case",
+    "pascal",
+    "pascalcase",
+    "camelcase",
+    "kebabcase",
+    "snakecase",
+    "kebab",
+    "snake",
+    "camel",
+    "lower",
+    "upper",
+    "camel case",
+    "snake case",
+    "kebab case",
+    "upper case",
+    "uppercase",
+    "lower case",
+    "lowercase",
+    "text case",
+    "start case",
+    "change case"
+  ],
   "engines": {
     "vscode": "^1.100.0"
   },

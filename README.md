@@ -1,8 +1,10 @@
-# Case-Changer
+# Case Changer
 
-Change Text Case: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence case.
+![Image](./lib/icon.png)
 
-## Features
+Visual Studio Code extension to change text case.
+
+## Case Converters
 
 - UPPERCASE
 - lowercase
@@ -13,6 +15,6 @@ Change Text Case: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab
 - Start Case
 - Sentence case.
 
-## Requirements
+## See Also
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- [Change Log](./CHANGELOG.md)
