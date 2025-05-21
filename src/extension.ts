@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { CaseChanger } from './changeCaser';
+import { CaseConverter } from './caseConverter';
 import { TextCaseKind } from './textCaseKind';
 
 export function activate(context: vscode.ExtensionContext) {
@@ -14,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
 				try {
 					const selection = textEditor.selections[i];
 					const text = textEditor.document.getText(new vscode.Range(selection.start, selection.end));
-					let cc = new CaseChanger();
+					let cc = new CaseConverter();
 					const result = cc.changeCase(text, caseKind);
 					edit.replace(selection, result);
 				} catch (error) {

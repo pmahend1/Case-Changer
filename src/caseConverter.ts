@@ -1,6 +1,6 @@
 import { TextCaseKind } from "./textCaseKind";
 
-export class CaseChanger {
+export class CaseConverter {
 
     public changeCase(text: string, caseKind: TextCaseKind): string {
         if (text.length === 0) {

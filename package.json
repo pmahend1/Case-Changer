@@ -1,7 +1,7 @@
 {
-  "name": "case-changer",
-  "displayName": "Case Changer",
-  "description": "Change text case: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
+  "name": "case-converter",
+  "displayName": "Case Converter",
+  "description": "Convert text case to UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
   "version": "1.0.0",
   "publisher": "PrateekMahendrakar",
   "repository": {
@@ -51,35 +51,35 @@
     "commands": [
       {
         "command": "case.changer.UPPERCASE",
-        "title": "Case Changer: UPPERCASE"
+        "title": "Case Converter: UPPERCASE"
       },
       {
         "command": "case.changer.lowercase",
-        "title": "Case Changer: lowercase"
+        "title": "Case Converter: lowercase"
       },
       {
         "command": "case.changer.PascalCase",
-        "title": "Case Changer: PascalCase"
+        "title": "Case Converter: PascalCase"
       },
       {
         "command": "case.changer.camelCase",
-        "title": "Case Changer: camelCase"
+        "title": "Case Converter: camelCase"
       },
       {
         "command": "case.changer.snake_case",
-        "title": "Case Changer: snake_case"
+        "title": "Case Converter: snake_case"
       },
       {
         "command": "case.changer.kebab-case",
-        "title": "Case Changer: kebab-case"
+        "title": "Case Converter: kebab-case"
       },
       {
         "command": "case.changer.Start Case",
-        "title": "Case Changer: Start Case"
+        "title": "Case Converter: Start Case"
       },
       {
         "command": "case.changer.Sentence case.",
-        "title": "Case Changer: Sentence case."
+        "title": "Case Converter: Sentence case."
       }
     ]
   },

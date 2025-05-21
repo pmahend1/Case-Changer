@@ -1,4 +1,4 @@
-# Case Changer
+# Case Converter
 
 ![Image](./lib/icon.png)
 
