@@ -15,6 +15,9 @@
     "color": "#0E0E0E",
     "theme": "dark"
   },
+  "sponsor": {
+    "url": "https://buymeacoffee.com/pmahend1"
+  },
   "markdown": "standard",
   "keywords": [
     "pascal case",
