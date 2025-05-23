@@ -9,7 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const key = keyValue[0];
 		const caseKind = keyValue[1];
 
-		let command = vscode.commands.registerTextEditorCommand(`case.changer.${caseKind}`, (textEditor, edit, ...args: any[]) => {
+		let command = vscode.commands.registerTextEditorCommand(`case.converter.${caseKind}`, (textEditor, edit, ...args: any[]) => {
 			for (let i = 0; i < textEditor.selections.length; i++) {
 				try {
 					const selection = textEditor.selections[i];

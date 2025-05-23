@@ -1,15 +1,15 @@
 {
   "name": "case-converter",
   "displayName": "Case Converter",
-  "description": "Convert text case to UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence Case. ",
+  "description": "Convert text case to UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case, Start Case, Sentence case. ",
   "version": "1.0.1",
   "publisher": "PrateekMahendrakar",
   "repository": {
-    "url": "https://github.com/pmahend1/Case-Changer"
+    "url": "https://github.com/pmahend1/Case-Converter"
   },
   "icon": "lib/icon.png",
   "license": "MIT",
-  "bugs": "https://github.com/pmahend1/Case-Changer/issues",
+  "bugs": "https://github.com/pmahend1/Case-Converter",
   "preview": false,
   "galleryBanner": {
     "color": "#0E0E0E",
@@ -48,37 +48,81 @@
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
+    "menus": {
+      "editor/context": [
+        {
+          "command": "case.converter.UPPERCASE",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        },
+        {
+          "command": "case.converter.lowercase",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        },
+        {
+          "command": "case.converter.camelCase",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        },
+        {
+          "command": "case.converter.PascalCase",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        },
+        {
+          "command": "case.converter.kebab-case",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        },
+        {
+          "command": "case.converter.snake_case",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        },
+        {
+          "command": "case.converter.Start Case",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        },
+        {
+          "command": "case.converter.Sentence case.",
+          "group": "z_commands",
+          "when": "editor.hasSelection"
+        }
+      ]
+    },
     "commands": [
       {
-        "command": "case.changer.UPPERCASE",
+        "command": "case.converter.UPPERCASE",
         "title": "Case Converter: UPPERCASE"
       },
       {
-        "command": "case.changer.lowercase",
+        "command": "case.converter.lowercase",
         "title": "Case Converter: lowercase"
       },
       {
-        "command": "case.changer.PascalCase",
+        "command": "case.converter.PascalCase",
         "title": "Case Converter: PascalCase"
       },
       {
-        "command": "case.changer.camelCase",
+        "command": "case.converter.camelCase",
         "title": "Case Converter: camelCase"
       },
       {
-        "command": "case.changer.snake_case",
+        "command": "case.converter.snake_case",
         "title": "Case Converter: snake_case"
       },
       {
-        "command": "case.changer.kebab-case",
+        "command": "case.converter.kebab-case",
         "title": "Case Converter: kebab-case"
       },
       {
-        "command": "case.changer.Start Case",
+        "command": "case.converter.Start Case",
         "title": "Case Converter: Start Case"
       },
       {
-        "command": "case.changer.Sentence case.",
+        "command": "case.converter.Sentence case.",
         "title": "Case Converter: Sentence case."
       }
     ]
