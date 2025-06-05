@@ -40,7 +40,7 @@ Visual Studio Code extension to change text case.
 - Enter your desired keybinding.
   
 > [!NOTE]
-> Make sure assigned keybinding does conflict with an existing one.
+> Make sure assigned keybinding does not conflict with an existing one.
 
 ![Key Bindings](./lib/key-bindings.jpg)
 
